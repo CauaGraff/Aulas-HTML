@@ -1,0 +1,6 @@
+img {
+    border-radius: 10px;
+    width: 50%;
+    opacity: 100%;
+    filter: invert();
+}
