@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas 2</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    thead {
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+    }
+
+    table {
+        font-family: ubuntu;
+        border-collapse: collapse;
+    }
+
+    /* pares: even / impares:odd */
+    tbody tr:nth-child(odd) {
+        background-color: #eee;
+    }
+
+    tbody tr:hover {
+        background-color: #ffc3ce;
+        transition: 0.5s;
+    }
+</style>
+
+
+
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Tabela de preços do computador</th>
+            </tr>
+            <tr>
+                <td>Nome Peça</td>
+                <td>Preço</td>
+                <td>Marca</td>
+                <td>Quantidade</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Placa-mãe</td>
+                <td>R$2500</td>
+                <td>Asus</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Placa de video RTX 4090</td>
+                <td>R$25000</td>
+                <td>MSI</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Memória RAM 2x8</td>
+                <td>R$350</td>
+                <td>Corsair</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Armazenamento SSD 1tb</td>
+                <td>R$989</td>
+                <td>kingston</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>Processador i9 13800k</td>
+                <td>R$5678</td>
+                <td>Intel</td>
+                <td>48</td>
+            </tr>
+            <tr>
+                <td>Fonte de alimentação 750w</td>
+                <td>R$850</td>
+                <td>XPG</td>
+                <td>60</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+
+</html>
